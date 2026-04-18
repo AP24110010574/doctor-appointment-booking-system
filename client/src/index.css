@@ -1,0 +1,48 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #1e40af, #3b82f6);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.doctor-card:hover {
+  transform: translateY(-4px);
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12) !important;
+}
+
+.sidebar {
+  background: #1e40af;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px 16px;
+  border-radius: 8px;
+  margin-bottom: 4px;
+}
+
+.sidebar a:hover { background: rgba(255,255,255,0.15); }
+.sidebar a.active { background: rgba(255,255,255,0.25); }
+
+.stat-card {
+  border-radius: 12px;
+  padding: 24px;
+  text-align: center;
+  border: none;
+}
+
+.badge-booked { background: #dbeafe; color: #1d4ed8; }
+.badge-completed { background: #dcfce7; color: #16a34a; }
+.badge-cancelled { background: #fee2e2; color: #dc2626; }
