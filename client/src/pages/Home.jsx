@@ -27,23 +27,23 @@ const Home = () => {
       </div>
 
       {/* Stats Section */}
-      <div className="bg-white py-4 border-bottom">
-        <div className="container">
-          <div className="row text-center">
-            {[
-              { num: '500+', label: 'Doctors' },
-              { num: '10,000+', label: 'Patients' },
-              { num: '50+', label: 'Specializations' },
-              { num: '24/7', label: 'Support' },
-            ].map((s) => (
-              <div key={s.label} className="col-6 col-md-3 py-2">
-                <h3 className="fw-bold text-primary mb-0">{s.num}</h3>
-                <p className="text-muted small mb-0">{s.label}</p>
-              </div>
-            ))}
-          </div>
+<div className="bg-white py-4 border-bottom">
+  <div className="container">
+    <div className="row text-center">
+      {[
+        { num: '500+', label: 'Doctors' },
+        { num: '10,000+', label: 'Patients' },
+        { num: '50+', label: 'Specializations' },
+        { num: '24/7', label: 'Support' },
+      ].map((s) => (
+        <div key={s.label} className="col-6 col-md-3 py-2">
+          <h3 className="fw-bold text-primary mb-0">{s.num}</h3>
+          <p className="text-muted small mb-0">{s.label}</p>
         </div>
-      </div>
+      ))}
+    </div>
+  </div>
+</div>
 
       {/* How It Works */}
       <div className="container py-5">
