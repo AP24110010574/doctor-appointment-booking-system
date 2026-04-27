@@ -6,7 +6,7 @@ A full-stack web application for booking doctor appointments built using the MER
 👉 [https://doctor-appointment-booking-system-bay.vercel.app](https://doctor-appointment-booking-system-bay.vercel.app)
 
 ## 🎥 Videos
-- 📽️ Project Overview Video: [https://www.loom.com/share/186e5fecbf5b4b6a9d68f40ad6587496]
+- 📽️ Project Overview Video: [https://www.loom.com/share/64e07e270b9841cca765230b3538a422]
 - 💻 Code Explanation Video: [https://www.loom.com/share/926ed9ad2c174a2c8026b7cc6fce2795]
 
 ## 👥 Team HealthBridge — SRMAP
